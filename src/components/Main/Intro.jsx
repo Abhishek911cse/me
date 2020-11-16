@@ -1,5 +1,5 @@
 import React from "react";
-import myImg from "../../images/profileImg.jpg";
+// import myImg from "../../images/profileImg.jpg";
 
 function Intro(props) {
   const introTitle = "Hey there! Let's";

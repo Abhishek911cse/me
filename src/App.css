@@ -98,6 +98,21 @@ hr{
   margin: 1% 5%;
 }
 
+#education{
+  margin: 1% 5%;
+}
+
+.paperRight {
+  padding: 6px 16px;
+  width: fit-content;
+}
+
+.paperLeft{
+  padding: 6px 16px;
+  width: fit-content;
+  float: right;
+}
+
 footer{
   margin: 1.5rem 0;
   text-align: center;
