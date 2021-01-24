@@ -1,0 +1,50 @@
+.Navbar {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  padding: 1rem 0;
+  top: 0;
+  left: 0;
+  background-color: #eeeeee;
+  box-shadow: 3px 7px 13px 6px #393e46;
+  z-index: 200;
+  /* overflow-y: scroll; */
+  /* transition: all 0.5s ease-out; */
+  animation: sidebar-slide 0.5s ease-out forwards;
+}
+
+/* .NavbarOpen {
+  transform: translateX(0);
+  z-index: 200;
+}
+
+.NavbarClose {
+  transform: translateX(-100%);
+} */
+
+.profile1 {
+  border-radius: 50%;
+  width: 50%;
+  margin: 0 25%;
+}
+
+.profile2 {
+  border-radius: 50%;
+  width: 60px;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+@keyframes sidebar-slide {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}

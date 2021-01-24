@@ -1,0 +1,38 @@
+.Sidebar {
+  display: inline-block;
+  width: 150px;
+  height: 100vh;
+  /* position: fixed; */
+  padding: 1rem 0;
+  /* top: 0;
+    left: 0; */
+  background-color: #eeeeee;
+  z-index: 200;
+  /* overflow-y: scroll; */
+  /* transition: all 0.5s ease-out; */
+  animation: sidebar-slide 0.5s ease-out forwards;
+}
+
+.SidebarOpen {
+  /* transform: translateX(0); */
+}
+
+.SidebarClose {
+  /* transform: translateX(-100%); */
+}
+
+.Sidebar img {
+  border-radius: 50%;
+  width: 50%;
+  margin: 0 25%;
+}
+
+@keyframes sidebar-slide {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}

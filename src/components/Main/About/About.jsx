@@ -1,22 +1,42 @@
 import React from "react";
+// import AboutImg from "../../../images/about-img-edited.jpg";
 
 function About(props) {
   const aboutMeTitle = "Hi👋! I'm Abhishek Ramasubramanian";
-  const aboutMeContent = `Lectus arcu bibendum at varius vel pharetra. Nibh sed pulvinar 
-  proin gravida hendrerit. Ullamcorper morbi tincidunt ornare massa eget egestas purus. 
-  A condimentum vitae sapien pellentesque. Sit amet justo donec enim diam vulputate. Justo
-   nec ultrices dui sapien eget. Orci phasellus egestas tellus rutrum tellus pellentesque 
-   eu tincidunt. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus. Quisque 
-   sagittis purus sit amet volutpat consequat mauris nunc. Velit egestas dui id ornare arcu
-    odio ut sem. Arcu cursus euismod quis viverra nibh cras. Sit amet risus nullam eget felis eget.`;
+  const contentPara1 = `I'm a Computer Science student from Vellore Institute of Technology, Vellore.
+  The amount of progress made in the field of computer science fascinates me and motivates me to 
+  explore new things. I'm open to learning new stuff and going beyond them.`;
+
+  const contentPara2 = `I have experience in Web Technologies including Databases in SQL as well as
+   NoSQL and Android Development. A best of my projects are listed down below and most of them are open-source.
+   I would welcome suggestions to improve them. I have even collaborated on some of them. Please do check it out.`;
+
+  const contentPara3 = `I'm an apt leader and a good communicator where needed. Focus on my goal 
+   is my primary aim and I don't deviate from it unless necessary. I give priority to the completion of
+   the assigned work and not leave it till the end. This is my guarantee. I'm fluent in English and Hindi 
+   Tamil as my mother tongue. Generally I don't post much things on social media but I'm present there to
+   be updated with the current affairs.`;
+
   return (
     <div id="about">
       <h2>About</h2>
       <div style={{ display: "inline-block", width: "50%" }}>
         <h3>{aboutMeTitle}</h3>
-        <p>{aboutMeContent}</p>
+        <p>{contentPara1}</p>
+        <p>{contentPara2}</p>
+        <p>{contentPara3}</p>
       </div>
-      <div style={{ width: "50%", float: "right" }}></div>
+      <div
+        id="about-img"
+        style={{
+          width: "40%",
+          height: "300px",
+          float: "right",
+          textAlign: "center",
+        }}
+      >
+        {/* <img src={AboutImg} /> */}
+      </div>
     </div>
   );
 }

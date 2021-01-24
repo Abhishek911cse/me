@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <NavigationBar />
-      <Main />
+      {/* <Main /> */}
     </div>
   );
 }

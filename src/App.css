@@ -1,64 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
 
-body{
+/* Styles for plain/common HTML tags*/
+* {
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #eeeeee;
   color: #393e46;
   background-image: url("./images/az-subtle.png");
-  
 }
 
-h2{
-  text-align: center;
+h2 {
   margin: 1.5rem 0;
   font-size: 2rem;
 }
 
-.navbar{
-  display: inline-block;
-  width: 20%;
-  height: 100vh;
-  position: fixed;
-  padding: 1rem 0;
-  top: 0;
-  left: 0;
-  background-color: #eeeeee;
-  box-shadow: 3px 7px 13px 6px #393e46;
-  z-index: 1;
-}
+/* Styles for Navigation bar */
 
-.navbar img{
-  border-radius: 50%;
-  width: 50%;
-  margin: 0 25%;
-}
-
-.nav-links{
+.nav-links {
   display: flex;
   align-items: center;
   padding-inline-start: 0;
   font-size: 1rem;
 }
 
-.nav-links a{
+.nav-links a {
   text-decoration: none;
-  color: #00adb5;
+  color: #3282b8;
   display: contents;
   transition: 0.2s;
   transition-timing-function: ease;
 }
 
-.nav-links a:hover{
-  color: #393e46;
+.nav-links a:hover {
+  color: #0f4c75;
 }
 
-.main{
-  margin-left: 20%;  
+/* Styles for "Main" section */
+
+.main {
+  margin-left: 20%;
 }
 
-#introImg{
+#introImg {
   background-image: url("./images/marten-bjork-aTt_rNa3gmM-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -68,7 +56,7 @@ h2{
   -webkit-filter: blur(5px);
 }
 
-#introContent{
+#introContent {
   position: absolute;
   color: #ffffff;
   top: 10%;
@@ -77,28 +65,46 @@ h2{
   width: 30%;
 }
 
-#introContent h1{
-  font-family: 'Pangolin', cursive;
+#introContent h1 {
+  font-family: "Pangolin", cursive;
   font-size: 4rem;
   margin-bottom: 1.2rem;
 }
 
-hr{
+hr {
   border: 0;
   width: 50%;
   border-top: 2px solid #eee;
 }
 
-#introContent p{
+#introContent p {
   font-size: 1rem;
   margin-top: 1.2rem;
 }
 
-#about{
+/* Styles for "About" section */
+
+#about {
   margin: 1% 5%;
 }
 
-#education{
+#about-img {
+  background-image: url(./images/about-img-edited.jpg);
+  background-size: contain;
+  background-attachment: local;
+  background-repeat: no-repeat;
+  width: 50%;
+}
+
+/* Styles for "Projects" section */
+
+#projects {
+  margin: 1% 5%;
+}
+
+/* Styles for "Education" section */
+
+#education {
   margin: 1% 5%;
 }
 
@@ -107,13 +113,21 @@ hr{
   width: fit-content;
 }
 
-.paperLeft{
+.paperLeft {
   padding: 6px 16px;
   width: fit-content;
   float: right;
 }
 
-footer{
+/* Styles for "Skills" section */
+
+#skills {
+  margin: 1% 5%;
+}
+
+/* Styles for footer */
+
+footer {
   margin: 1.5rem 0;
   text-align: center;
   color: #00adb5;
