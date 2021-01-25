@@ -7,13 +7,14 @@ function Intro(props) {
   which are responsive and easy to use.`;
   return (
     <div>
-      <div id="introImg"></div>
-      <div id="introContent">
-        <h1>
-          {introTitle} <strong>Develop</strong>.
-        </h1>
-        <hr />
-        <p>{introContent}</p>
+      <div id="introImg">
+        <div id="introContent">
+          <h1>
+            {introTitle} <strong>Develop</strong>.
+          </h1>
+          <hr />
+          <p>{introContent}</p>
+        </div>
       </div>
     </div>
   );

@@ -37,6 +37,21 @@
   top: 5px;
   margin: 5px;
   padding: 5px;
+  z-index: 100;
+}
+
+.desktopMini {
+  position: fixed;
+  width: 10%;
+  height: 100vh;
+  background-color: #eeeeee;
+  display: flex;
+  flex-flow: column;
+  z-index: 200;
+  padding-top: 50px;
+  box-shadow: 3px 7px 13px 6px #393e46;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 @keyframes sidebar-slide {

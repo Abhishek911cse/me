@@ -6,18 +6,34 @@ import WorkIcon from "@material-ui/icons/Work";
 // import ContactsIcon from "@material-ui/icons/Contacts";
 import BuildIcon from "@material-ui/icons/Build";
 
-function NavigationBar() {
+const NavigationBar = (props) => {
   return (
     <ul style={{ display: "flex", flexFlow: "column", padding: "0" }}>
-      <NavLinks whichPart="about" name="About" linkIcon={<PersonIcon />} />
-      <NavLinks whichPart="projects" name="Projects" linkIcon={<WorkIcon />} />
+      <NavLinks
+        whichPart="about"
+        linkName="About"
+        linkIcon={<PersonIcon />}
+        close={props.close}
+      />
+      <NavLinks
+        whichPart="projects"
+        linkName="Projects"
+        linkIcon={<WorkIcon />}
+        close={props.close}
+      />
       <NavLinks
         whichPart="education"
-        name="Education"
+        linkName="Education"
         linkIcon={<SchoolIcon />}
+        close={props.close}
       />
 
-      <NavLinks whichPart="skills" name="Skills" linkIcon={<BuildIcon />} />
+      <NavLinks
+        whichPart="skills"
+        linkName="Skills"
+        linkIcon={<BuildIcon />}
+        close={props.close}
+      />
       {/* <NavLinks
         whichPart="contact"
         name="Contact"
@@ -25,6 +41,6 @@ function NavigationBar() {
       /> */}
     </ul>
   );
-}
+};
 
 export default NavigationBar;

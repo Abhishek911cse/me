@@ -38,7 +38,7 @@ const mobileMenu = (props) => {
               Abhishek Ramasubramanian
             </p>
           </div>
-          <NavList />
+          <NavList close={props.close} />
           <br></br>
           <div className={classes.contact}>
             <a

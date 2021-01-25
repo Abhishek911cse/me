@@ -42,8 +42,14 @@ h2 {
 
 /* Styles for "Main" section */
 
-.main {
-  margin-left: 20%;
+/* .main {
+  margin-left: 10%;
+} */
+
+@media (min-width: 769px) {
+  .main {
+    padding-left: 10%;
+  }
 }
 
 #introImg {
@@ -51,26 +57,24 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 30rem;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+  height: 100vh;
+  /* filter: blur(5px);
+  -webkit-filter: blur(5px); */
+  display: flex;
 }
 
 #introContent {
-  position: absolute;
   color: #ffffff;
-  top: 10%;
-  right: 24%;
-  text-align: center;
-  width: 30%;
+  margin: 10%;
+  align-self: center;
 }
 
 #introContent h1 {
   font-family: "Pangolin", cursive;
   font-size: 4rem;
-  margin-bottom: 1.2rem;
+  margin: 0;
 }
-
+/*
 hr {
   border: 0;
   width: 50%;
@@ -81,6 +85,7 @@ hr {
   font-size: 1rem;
   margin-top: 1.2rem;
 }
+*/
 
 /* Styles for "About" section */
 
