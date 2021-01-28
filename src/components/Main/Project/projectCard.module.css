@@ -1,0 +1,58 @@
+.ProjectCard {
+  width: 100%;
+  background-color: #0f4c75;
+  margin: 10px;
+  border-radius: 10px 10px 0 0;
+  color: #bbe1fa;
+  box-shadow: #c3c3c3 0px 0px 2px 1px;
+  transition: all 0.3s ease-out;
+}
+
+.projectImage {
+  width: 100%;
+  border-radius: inherit;
+}
+
+.projectImage img {
+  border-radius: inherit;
+}
+
+.projectCardActions {
+  padding: 10px 20px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.srcCodeBtn {
+  color: #bbe1fa;
+  border: 1px solid #bbe1fa;
+  border-radius: 5px;
+  background-color: inherit;
+  padding: 7px;
+  transition: all 0.3s ease-out;
+}
+
+.srcCodeBtn:hover {
+  border: 1px solid #3282b8;
+  color: #3282b8;
+  cursor: pointer;
+}
+
+.projectContent {
+  padding: 0 20px 20px;
+  /* text-align: justify; */
+}
+
+@media screen and (min-width: 500px) {
+  .ProjectCard {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ProjectCard {
+    width: 45%;
+  }
+}

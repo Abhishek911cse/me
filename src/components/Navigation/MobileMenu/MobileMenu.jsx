@@ -32,7 +32,7 @@ const mobileMenu = (props) => {
                 textAlign: "center",
                 fontWeight: "bold",
                 fontSize: "1rem",
-                color: "#1b262c",
+                color: "#d8d8d8",
               }}
             >
               Abhishek Ramasubramanian
@@ -53,7 +53,7 @@ const mobileMenu = (props) => {
             <a href="/" style={{ color: "#0A66C2" }}>
               <LinkedInIcon style={{ fontSize: 30 }} />
             </a>
-            <a href="/" style={{ color: "#161B22" }}>
+            <a href="/" style={{ color: "#FFFFFF" }}>
               <GitHubIcon style={{ fontSize: 30 }} />
             </a>
             <a href="/" style={{ color: "#1DA1F2" }}>

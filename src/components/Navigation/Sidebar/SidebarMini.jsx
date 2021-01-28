@@ -31,24 +31,6 @@ const SidebarMini = (props) => {
           className={classes.profile2}
           alt="Abhishek Ramasubramanian"
         />
-        {/* <ul style={{ display: "flex", flexFlow: "column" }}>
-          <NavLinks
-            whichPart="about"
-            linkIcon={<PersonIcon style={{ fontSize: 26 }} />}
-          />
-          <NavLinks
-            whichPart="projects"
-            linkIcon={<WorkIcon style={{ fontSize: 26 }} />}
-          />
-          <NavLinks
-            whichPart="education"
-            linkIcon={<SchoolIcon style={{ fontSize: 26 }} />}
-          />
-          <NavLinks
-            whichPart="skills"
-            linkIcon={<BuildIcon style={{ fontSize: 26 }} />}
-          />
-        </ul> */}
         <div className={classes.common}>
           <AnchorLink
             offset={() => 20}
@@ -57,9 +39,6 @@ const SidebarMini = (props) => {
           >
             <PersonIcon />
           </AnchorLink>
-          {/* <a href="#about" className={classes.expandedNavLinks}>
-            <PersonIcon />
-          </a> */}
           <AnchorLink
             offset={() => 20}
             href="#projects"
@@ -67,9 +46,6 @@ const SidebarMini = (props) => {
           >
             <WorkIcon />
           </AnchorLink>
-          {/* <a href="#projects" className={classes.expandedNavLinks}>
-            <WorkIcon />
-          </a> */}
           <AnchorLink
             offset={() => 20}
             href="#education"
@@ -77,9 +53,6 @@ const SidebarMini = (props) => {
           >
             <SchoolIcon />
           </AnchorLink>
-          {/* <a href="#education" className={classes.expandedNavLinks}>
-            <SchoolIcon />
-          </a> */}
           <AnchorLink
             offset={() => 20}
             href="#skills"
@@ -87,29 +60,7 @@ const SidebarMini = (props) => {
           >
             <BuildIcon />
           </AnchorLink>
-          {/* <a href="#skills" className={classes.expandedNavLinks}>
-            <BuildIcon />
-          </a> */}
         </div>
-        {/* style={{ fontSize: 26 }} */}
-        {/* <a
-            href="mailto:0901abhishek.r@gmail.com"
-            style={{ color: "#E94034" }}
-          >
-            <EmailIcon style={{ fontSize: 30 }} />
-          </a>
-          <a href="tel:+919321215019" style={{ color: "#3282b8" }}>
-            <PhoneIcon style={{ fontSize: 30 }} />
-          </a>
-          <a href="/" style={{ color: "#0A66C2" }}>
-            <LinkedInIcon style={{ fontSize: 30 }} />
-          </a>
-          <a href="/" style={{ color: "#161B22" }}>
-            <GitHubIcon style={{ fontSize: 30 }} />
-          </a>
-          <a href="/" style={{ color: "#1DA1F2" }}>
-            <TwitterIcon style={{ fontSize: 30 }} />
-          </a> */}
       </div>
       <CSSTransition
         in={expandNav}

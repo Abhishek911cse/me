@@ -9,14 +9,16 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  background-color: #eeeeee;
-  color: #393e46;
+  background-color: #1b262c;
+  color: #bbe1fa;
   background-image: url("./images/az-subtle.png");
 }
 
 h2 {
   margin: 1.5rem 0;
   font-size: 2rem;
+  width: 100%;
+  text-align: center;
 }
 
 /* Styles for Navigation bar */
@@ -30,7 +32,7 @@ h2 {
 
 .nav-links a {
   text-decoration: none;
-  color: #3282b8;
+  color: #c4e7ff;
   display: contents;
   transition: 0.2s;
   transition-timing-function: ease;
@@ -86,26 +88,6 @@ hr {
   margin-top: 1.2rem;
 }
 */
-
-/* Styles for "About" section */
-
-#about {
-  margin: 1% 5%;
-}
-
-#about-img {
-  background-image: url(./images/about-img-edited.jpg);
-  background-size: contain;
-  background-attachment: local;
-  background-repeat: no-repeat;
-  width: 50%;
-}
-
-/* Styles for "Projects" section */
-
-#projects {
-  margin: 1% 5%;
-}
 
 /* Styles for "Education" section */
 

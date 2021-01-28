@@ -1,0 +1,24 @@
+.projects {
+  margin: 1% 5%;
+}
+
+.projectsSection {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+/* .projectsSection > div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+} */
+/* .gridItem {
+  width: 80%;
+}
+
+@media screen and (min-width: 600px) {
+  .gridItem {
+    width: auto;
+  }
+} */

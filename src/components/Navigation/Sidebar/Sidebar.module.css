@@ -38,7 +38,8 @@
   position: fixed;
   width: 10%;
   height: 100vh;
-  background-color: #bbe1fa;
+  background-color: #1b262c;
+  background-image: linear-gradient(120deg, #2e3346, #0c0c0c);
   display: flex;
   flex-flow: column;
   z-index: 200;
@@ -58,13 +59,14 @@
   position: fixed;
   height: 100vh;
   margin-left: 10%;
-  background-color: #bbe1fa;
+  background-color: #1b262c;
+  background-image: linear-gradient(50deg, #0c0c0c, #2e3346);
   display: flex;
   flex-flow: column;
   z-index: 150;
   padding: 30px 0 20px 0;
   /* box-shadow: 3px 7px 13px 6px #393e46; */
-  align-items: flex-start;
+  align-items: center;
 }
 
 .desktopMini > *,
@@ -77,7 +79,7 @@
   padding: 15px 0;
   height: 4rem;
   text-decoration: none;
-  color: #3282b8;
+  color: #c4e7ff;
   transition: 0.2s;
   transition-timing-function: ease;
   display: flex;

@@ -1,4 +1,5 @@
 import React from "react";
+import classes from "./about.styles.module.css";
 // import AboutImg from "../../../images/about-img-edited.jpg";
 
 function About(props) {
@@ -18,24 +19,14 @@ function About(props) {
    be updated with the current affairs.`;
 
   return (
-    <div id="about">
+    <div id="about" className={classes.about}>
       <h2>About</h2>
-      <div style={{ display: "inline-block", width: "50%" }}>
+      <div className={classes.aboutImg}></div>
+      <div className={classes.aboutContent}>
         <h3>{aboutMeTitle}</h3>
         <p>{contentPara1}</p>
         <p>{contentPara2}</p>
         <p>{contentPara3}</p>
-      </div>
-      <div
-        id="about-img"
-        style={{
-          width: "40%",
-          height: "300px",
-          float: "right",
-          textAlign: "center",
-        }}
-      >
-        {/* <img src={AboutImg} /> */}
       </div>
     </div>
   );
