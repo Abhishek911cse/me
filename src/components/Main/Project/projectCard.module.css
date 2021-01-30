@@ -1,7 +1,7 @@
 .ProjectCard {
-  width: 100%;
+  width: 90%;
   background-color: #0f4c75;
-  margin: 10px;
+  margin: 10px 0;
   border-radius: 10px 10px 0 0;
   color: #bbe1fa;
   box-shadow: #c3c3c3 0px 0px 2px 1px;
@@ -15,6 +15,15 @@
 
 .projectImage img {
   border-radius: inherit;
+}
+
+.projectName {
+  text-align: center;
+  font-size: 1em;
+}
+
+.projectName h4 {
+  margin: 10px;
 }
 
 .projectCardActions {
@@ -35,9 +44,15 @@
 }
 
 .srcCodeBtn:hover {
-  border: 1px solid #3282b8;
-  color: #3282b8;
+  border: 1px solid #1b262c;
+  color: #1b262c;
   cursor: pointer;
+}
+
+.srcCodeBtn:focus {
+  outline: none;
+  border: 1px solid #1b262c;
+  color: #1b262c;
 }
 
 .projectContent {
@@ -45,14 +60,17 @@
   /* text-align: justify; */
 }
 
-@media screen and (min-width: 500px) {
+/* @media screen and (min-width: 500px) {
   .ProjectCard {
     width: 70%;
   }
 }
-
+*/
 @media screen and (min-width: 768px) {
   .ProjectCard {
-    width: 45%;
+    width: 90%;
+  }
+  .projectName {
+    font-size: 1.2em;
   }
 }

@@ -5,10 +5,11 @@ import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 // import ContactsIcon from "@material-ui/icons/Contacts";
 import BuildIcon from "@material-ui/icons/Build";
+import classes from "./NavList.module.css";
 
-const NavigationBar = (props) => {
+const NavList = (props) => {
   return (
-    <ul style={{ display: "flex", flexFlow: "column", padding: "0" }}>
+    <ul className={classes.NavList}>
       <NavLinks
         whichPart="about"
         linkName="About"
@@ -43,4 +44,4 @@ const NavigationBar = (props) => {
   );
 };
 
-export default NavigationBar;
+export default NavList;

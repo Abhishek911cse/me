@@ -17,51 +17,39 @@ const mobileMenu = (props) => {
       mountOnEnter
       unmountOnExit
     >
-      <div className={classes.MobileMenu}>
-        <nav>
-          <div>
-            <img
-              src={myImg}
-              className={classes.profile1}
-              alt="Abhishek Ramasubramanian"
-            />
-          </div>
-          <div>
-            <p
-              style={{
-                textAlign: "center",
-                fontWeight: "bold",
-                fontSize: "1rem",
-                color: "#d8d8d8",
-              }}
-            >
-              Abhishek Ramasubramanian
-            </p>
-          </div>
-          <NavList close={props.close} />
-          <br></br>
-          <div className={classes.contact}>
-            <a
-              href="mailto:0901abhishek.r@gmail.com"
-              style={{ color: "#E94034" }}
-            >
-              <EmailIcon style={{ fontSize: 30 }} />
-            </a>
-            <a href="tel:+919321215019" style={{ color: "#3282b8" }}>
-              <PhoneIcon style={{ fontSize: 30 }} />
-            </a>
-            <a href="/" style={{ color: "#0A66C2" }}>
-              <LinkedInIcon style={{ fontSize: 30 }} />
-            </a>
-            <a href="/" style={{ color: "#FFFFFF" }}>
-              <GitHubIcon style={{ fontSize: 30 }} />
-            </a>
-            <a href="/" style={{ color: "#1DA1F2" }}>
-              <TwitterIcon style={{ fontSize: 30 }} />
-            </a>
-          </div>
-        </nav>
-      </div>
+      <nav className={classes.MobileMenu}>
+        <div>
+          <img
+            src={myImg}
+            className={classes.profile1}
+            alt="Abhishek Ramasubramanian"
+          />
+
+          <p className={classes.name}>Abhishek Ramasubramanian</p>
+        </div>
+        <NavList close={props.close} />
+        {/* <br></br> */}
+        <div className={classes.contact}>
+          <a
+            href="mailto:0901abhishek.r@gmail.com"
+            style={{ color: "#E94034" }}
+          >
+            <EmailIcon style={{ fontSize: 30 }} />
+          </a>
+          <a href="tel:+919321215019" style={{ color: "#3282b8" }}>
+            <PhoneIcon style={{ fontSize: 30 }} />
+          </a>
+          <a href="/" style={{ color: "#0A66C2" }}>
+            <LinkedInIcon style={{ fontSize: 30 }} />
+          </a>
+          <a href="/" style={{ color: "#FFFFFF" }}>
+            <GitHubIcon style={{ fontSize: 30 }} />
+          </a>
+          <a href="/" style={{ color: "#1DA1F2" }}>
+            <TwitterIcon style={{ fontSize: 30 }} />
+          </a>
+        </div>
+      </nav>
     </CSSTransition>
   );
 };

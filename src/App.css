@@ -44,10 +44,6 @@ h2 {
 
 /* Styles for "Main" section */
 
-/* .main {
-  margin-left: 10%;
-} */
-
 @media (min-width: 769px) {
   .main {
     padding-left: 10%;
