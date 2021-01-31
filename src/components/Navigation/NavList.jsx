@@ -23,8 +23,8 @@ const NavList = (props) => {
         close={props.close}
       />
       <NavLinks
-        whichPart="education"
-        linkName="Education"
+        whichPart="timeline"
+        linkName="Timeline"
         linkIcon={<SchoolIcon />}
         close={props.close}
       />

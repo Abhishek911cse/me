@@ -5,8 +5,8 @@ import Certificate from "./Certificate";
 
 const Education = (props) => {
   return (
-    <div id="education">
-      <h2>Education and Certificates</h2>
+    <div id="timeline">
+      <h2>Timeline</h2>
       <div>
         <Timeline align="alternate" style={{ padding: 0 }}>
           <TimeLineItem
@@ -31,10 +31,16 @@ const Education = (props) => {
             institute="Vellore Institute of Technology, Vellore"
             years="2019-2023"
           />
-          <TimeLineItem last={true} dotColor="primary" />
+          <TimeLineItem
+            dotColor="primary"
+            connector={true}
+            paperSide="paperLeft"
+            institute="React Intern @ FindMind Analytics"
+            years="Jan 2021-Present"
+          />
+          <TimeLineItem last={true} dotColor="secondary" />
         </Timeline>
       </div>
-      <Certificate />
     </div>
   );
 };

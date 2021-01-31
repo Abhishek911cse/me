@@ -21,8 +21,13 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#0f4c75",
     color: "#bbe1fa",
     width: "100%",
+    // boxShadow: "#c3c3c3 2px 2px 2px 1px",
+    border: "1px solid #c3c3c3",
     "@media (min-width: 600px)": {
       padding: "5px 15px",
+    },
+    "@media (min-width: 1024px)": {
+      width: "350px",
     },
   },
   instituteNameStyle: {
@@ -61,7 +66,10 @@ const TimeLineItem = (props) => {
           </Typography>
         )}
         {props.paperSide && (
-          <Paper className={`${props.paperSide} ${classes.paperStyle}`}>
+          <Paper
+            className={`${props.paperSide} ${classes.paperStyle}`}
+            variant="outlined"
+          >
             <Typography variant="h6" className={classes.instituteNameStyle}>
               {props.institute}
             </Typography>

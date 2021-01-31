@@ -48,7 +48,7 @@ const SidebarMini = (props) => {
           </AnchorLink>
           <AnchorLink
             offset={() => 20}
-            href="#education"
+            href="#timeline"
             className={classes.expandedNavLinks}
           >
             <SchoolIcon />
@@ -77,21 +77,37 @@ const SidebarMini = (props) => {
             style={{ visibility: "hidden" }}
           />
           <div>
-            <a href="#about" className={classes.expandedNavLinks}>
+            <AnchorLink
+              offset={() => 20}
+              href="#about"
+              className={classes.expandedNavLinks}
+            >
               About
-            </a>
+            </AnchorLink>
 
-            <a href="#projects" className={classes.expandedNavLinks}>
+            <AnchorLink
+              offset={() => 20}
+              href="#projects"
+              className={classes.expandedNavLinks}
+            >
               Projects
-            </a>
+            </AnchorLink>
 
-            <a href="#education" className={classes.expandedNavLinks}>
-              Education
-            </a>
+            <AnchorLink
+              offset={() => 20}
+              href="#timeline"
+              className={classes.expandedNavLinks}
+            >
+              Timeline
+            </AnchorLink>
 
-            <a href="#skills" className={classes.expandedNavLinks}>
+            <AnchorLink
+              offset={() => 20}
+              href="#skills"
+              className={classes.expandedNavLinks}
+            >
               Skills
-            </a>
+            </AnchorLink>
           </div>
         </div>
       </CSSTransition>

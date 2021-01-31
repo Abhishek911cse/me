@@ -31,21 +31,31 @@ const mobileMenu = (props) => {
         {/* <br></br> */}
         <div className={classes.contact}>
           <a
-            href="mailto:0901abhishek.r@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=0901abhishek.r@gmail.com"
             style={{ color: "#E94034" }}
           >
             <EmailIcon style={{ fontSize: 30 }} />
           </a>
-          <a href="tel:+919321215019" style={{ color: "#3282b8" }}>
-            <PhoneIcon style={{ fontSize: 30 }} />
-          </a>
-          <a href="/" style={{ color: "#0A66C2" }}>
+
+          <a
+            href="https://www.linkedin.com/in/abhishek-ramasubramanian-74b2941a3/"
+            target="_blank"
+            style={{ color: "#0A66C2" }}
+          >
             <LinkedInIcon style={{ fontSize: 30 }} />
           </a>
-          <a href="/" style={{ color: "#FFFFFF" }}>
+          <a
+            href="https://github.com/Abhishek911cse"
+            target="_blank"
+            style={{ color: "#FFFFFF" }}
+          >
             <GitHubIcon style={{ fontSize: 30 }} />
           </a>
-          <a href="/" style={{ color: "#1DA1F2" }}>
+          <a
+            href="https://twitter.com/abhishekR_09"
+            target="_blank"
+            style={{ color: "#1DA1F2" }}
+          >
             <TwitterIcon style={{ fontSize: 30 }} />
           </a>
         </div>

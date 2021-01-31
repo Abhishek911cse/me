@@ -2,9 +2,10 @@
   width: 90%;
   background-color: #0f4c75;
   margin: 10px 0;
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px;
   color: #bbe1fa;
-  box-shadow: #c3c3c3 0px 0px 2px 1px;
+  /* box-shadow: #c3c3c3 2px 2px 2px 1px; */
+  border: 1px solid #c3c3c3;
   transition: all 0.3s ease-out;
 }
 
@@ -14,7 +15,7 @@
 }
 
 .projectImage img {
-  border-radius: inherit;
+  border-radius: 10px 10px 0 0;
 }
 
 .projectName {

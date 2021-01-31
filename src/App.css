@@ -21,6 +21,22 @@ h2 {
   text-align: center;
 }
 
+::-webkit-scrollbar {
+  background-color: #1b262c;
+  width: 5px;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #bbe1fa;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1b262c;
+  border-radius: 100px;
+}
+
 /* Styles for Navigation bar */
 
 .nav-links {
@@ -42,52 +58,9 @@ h2 {
   color: #0f4c75;
 }
 
-/* Styles for "Main" section */
+/* Styles for "Timeline" section */
 
-@media (min-width: 769px) {
-  .main {
-    padding-left: 10%;
-  }
-}
-
-#introImg {
-  background-image: url("./images/marten-bjork-aTt_rNa3gmM-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  /* filter: blur(5px);
-  -webkit-filter: blur(5px); */
-  display: flex;
-}
-
-#introContent {
-  color: #ffffff;
-  margin: 10%;
-  align-self: center;
-}
-
-#introContent h1 {
-  font-family: "Pangolin", cursive;
-  font-size: 4rem;
-  margin: 0;
-}
-/*
-hr {
-  border: 0;
-  width: 50%;
-  border-top: 2px solid #eee;
-}
-
-#introContent p {
-  font-size: 1rem;
-  margin-top: 1.2rem;
-}
-*/
-
-/* Styles for "Education" section */
-
-#education {
+#timeline {
   margin: 1% 5%;
 }
 
@@ -108,10 +81,9 @@ hr {
   margin: 1% 5%;
 }
 
-/* Styles for footer */
-
-footer {
-  margin: 1.5rem 0;
-  text-align: center;
-  color: #00adb5;
-}
+/* .footerHR {
+  margin: 40px auto;
+  border: 0;
+  border-top: 10px dotted;
+  width: 60px;
+} */

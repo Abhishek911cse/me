@@ -1,25 +1,27 @@
 import React from "react";
-import Footer from "./Footer";
-// import Content from "./Content";
-import Intro from "./Intro";
+import Footer from "./Footer/Footer";
+import Intro from "./Intro/Intro";
 import About from "./About/About";
-import Education from "./Education/Education";
+import Timeline from "./Timeline/Timeline";
 import Project from "./Project/Projects";
-// import Contact from "./Contact";
 import Skills from "./Skills/Skills";
+import classes from "./main.module.css";
 
-function Main() {
+const Main = () => {
   return (
-    <div className="main">
+    <div className={classes.main}>
       <Intro />
       <About />
+      <hr className={classes.footerHR}></hr>
       <Project />
-      <Education />
+      <hr className={classes.footerHR}></hr>
+      <Timeline />
+      <hr className={classes.footerHR}></hr>
       <Skills />
-      {/* <Contact /> */}
+      <hr className={classes.footerHR}></hr>
       <Footer />
     </div>
   );
-}
+};
 
 export default Main;

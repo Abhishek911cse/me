@@ -36,7 +36,7 @@
 
 .desktopMini {
   position: fixed;
-  width: 10%;
+  width: 100px;
   height: 100vh;
   background-color: #1b262c;
   background-image: linear-gradient(120deg, #2e3346, #0c0c0c);
@@ -46,6 +46,7 @@
   padding-top: 30px;
   /* box-shadow: 3px 7px 13px 6px #393e46; */
   align-items: center;
+  overflow-y: auto;
   /* transition: all 0.5s ease-out; */
   /* justify-content: space-evenly; */
 }
@@ -55,10 +56,10 @@
 } */
 
 .expandedNav {
-  width: 15%;
+  width: 150px;
   position: fixed;
   height: 100vh;
-  margin-left: 10%;
+  margin-left: 100px;
   background-color: #1b262c;
   background-image: linear-gradient(50deg, #0c0c0c, #2e3346);
   display: flex;
@@ -67,6 +68,7 @@
   padding: 30px 0 20px 0;
   /* box-shadow: 3px 7px 13px 6px #393e46; */
   align-items: center;
+  overflow-y: auto;
 }
 
 .desktopMini > *,
@@ -115,12 +117,8 @@
   transition: transform 300ms;
 }
 
-/* @keyframes sidebar-slide {
-  from {
-    transform: translateY(-100%);
+@media screen and (hover: none) {
+  .expandedNav {
+    display: none;
   }
-
-  to {
-    transform: translateY(0);
-  }
-} */
+}
