@@ -28,14 +28,9 @@ const NavigationBar = () => {
     <div>
       {windowSize <= 768 ? (
         <React.Fragment>
-          {/* {!showNav && (
-            <img
-              src={myImg}
-              className={classes.profile2}
-              alt="Abhishek Ramasubramanian"
-            />
-          )} */}
-          <Hamburger closed={!showNav} clicked={toggleMobileMenuHandler} />
+          <div className={classes.navHamburger}>
+            <Hamburger closed={!showNav} clicked={toggleMobileMenuHandler} />
+          </div>
           <MobileMenu showNav={showNav} close={toggleMobileMenuHandler} />
         </React.Fragment>
       ) : (

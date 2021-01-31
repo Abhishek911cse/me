@@ -13,7 +13,10 @@ const Projects = (props) => {
         <div>
           <ProjectCard
             projName="Task App"
-            projDesc="maecenas pharetra. Eu facilisis sed odio morbi quis commodo odio aenean. Maecenas ultricies mi eget mauris pharetra et. Arcu dui vivamus arcu felis bibendum ut tristique et. Dui sapien eget mi proin sed libero enim. Condimentum mattis pellentesque id nibh tortor id. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla."
+            projDesc={`A task app made for storing simple task lists. 
+            This is made purely using React. It's a template for making frontend for task apps. 
+            The app features task lists which can contain sub tasks. Each sub task can have an 
+            associated content and a timestamp.`}
             imgUrl={todoAppImg}
             imgTitle="Home page of Task App"
             projLink="https://github.com/Abhishek911cse/Todo-List-App-React.git"
@@ -22,7 +25,9 @@ const Projects = (props) => {
         <div>
           <ProjectCard
             projName="CPU Scheduling Visualizer"
-            projDesc="Netus et malesuada fames ac turpis egestas maecenas pharetra. Eu facilisis sed odio morbi quis commodo odio aenean. Maecenas ultricies mi eget mauris pharetra et. Arcu dui vivamus arcu felis bibendum ut tristique et. Dui sapien eget mi proin sed libero enim. Condimentum mattis pellentesque id nibh tortor id. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla."
+            projDesc={`This project demonstrates several CPU scheduling algorithms in a graphical way. 
+            The project is built using Python. The purpose of the app is to help visualize the CPU scheduling algorithms 
+            and make it easy to understand. The app was made in collaboration with my classmates.`}
             imgUrl={cpuSchedulerProj}
             imgTitle="Sample CPU Scheduling Visualizer"
             projLink="https://github.com/Siddharth-Gandhi/CPU-Scheduling-Visualizer.git"
@@ -31,7 +36,10 @@ const Projects = (props) => {
         <div>
           <ProjectCard
             projName="Pharmacy Management System"
-            projDesc="maecenas pharetra. Eu facilisis sed odio morbi quis commodo odio aenean. Maecenas ultricies mi eget mauris pharetra et. Arcu dui vivamus arcu felis bibendum ut tristique et. Dui sapien eget mi proin sed libero enim. Condimentum mattis pellentesque id nibh tortor id. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla."
+            projDesc={`This app helps to manage a single pharmacy store. 
+            The app is built with backend in Node.js + Express.js, database used is MySQL and frontend in HTML, CSS and JS with
+             Bootstrap library. This is a simple to use app which can generate bills, manage and maintain storage and keeps records 
+             of employees with proper authentication.`}
             imgUrl={pharmacyImg}
             imgTitle="Home page of Pharmacy Management System"
             projLink="https://github.com/Abhishek911cse/Pharmacy-Management-System.git"

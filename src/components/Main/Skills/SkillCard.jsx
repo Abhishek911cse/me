@@ -10,9 +10,11 @@ const useStyles = makeStyles((theme) => ({
     border: "1px solid #c3c3c3",
     width: "90%",
     margin: "auto",
+    height: "100%",
   },
   cardContent: {
     backgroundColor: "#0f4c75",
+    height: "100%",
     color: "#bbe1fa",
     "& p": {
       color: "#bbe1fa",
@@ -38,8 +40,7 @@ const SkillCard = (props) => {
           {props.name}
         </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          {props.content}
         </Typography>
       </CardContent>
     </Card>

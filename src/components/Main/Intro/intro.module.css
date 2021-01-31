@@ -11,12 +11,14 @@
 
 .introContent {
   color: #ffffff;
-  margin: 10%;
+  margin: 5%;
   align-self: center;
+  text-align: center;
+  width: 100%;
 }
 
 .introContent h1 {
   font-family: "Pangolin", cursive;
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0;
 }
