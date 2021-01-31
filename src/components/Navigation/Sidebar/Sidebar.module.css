@@ -82,6 +82,7 @@
   height: 4rem;
   text-decoration: none;
   color: #c4e7ff;
+  font-family: "Montserrat", sans-serif;
   transition: 0.2s;
   transition-timing-function: ease;
   display: flex;

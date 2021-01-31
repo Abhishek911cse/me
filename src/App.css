@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap");
 /* Styles for plain/common HTML tags*/
 * {
   box-sizing: border-box;
@@ -8,10 +8,19 @@
 
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #1b262c;
   color: #bbe1fa;
   background-image: url("./images/az-subtle.png");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
 }
 
 h2 {
@@ -19,6 +28,11 @@ h2 {
   font-size: 2rem;
   width: 100%;
   text-align: center;
+}
+
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -49,6 +63,7 @@ h2 {
 .nav-links a {
   text-decoration: none;
   color: #c4e7ff;
+  font-family: "Montserrat", sans-serif;
   display: contents;
   transition: 0.2s;
   transition-timing-function: ease;

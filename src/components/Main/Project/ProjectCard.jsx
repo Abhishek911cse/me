@@ -14,8 +14,11 @@ const useStyles = makeStyles((theme) => ({
     transition: theme.transitions.create("transform", {
       duration: theme.transitions.duration.shortest,
     }),
-    "&:hover, &:focus": {
+    "&:hover": {
       color: "#1b262c",
+    },
+    "&:focus": {
+      color: "#bbe1fa",
     },
   },
   expandOpen: {
@@ -42,9 +45,7 @@ function ProjectCard(props) {
         ></img>
       </div>
       <div className={classes.projectName}>
-        <h4>
-          <strong>{props.projName}</strong>
-        </h4>
+        <h4>{props.projName}</h4>
       </div>
       <div className={classes.projectCardActions}>
         <a
@@ -52,7 +53,7 @@ function ProjectCard(props) {
           target="_blank"
           rel="external"
         >
-          <button className={classes.srcCodeBtn}>SOURCE CODE</button>
+          <button className={classes.srcCodeBtn}>Source Code</button>
         </a>
         <IconButton
           className={`${localClasses.expand} ${

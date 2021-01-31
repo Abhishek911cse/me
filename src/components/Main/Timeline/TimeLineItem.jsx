@@ -12,6 +12,7 @@ import { makeStyles } from "@material-ui/core";
 const useStyles = makeStyles((theme) => ({
   oppositeColor: {
     color: "#c4e7ff",
+    fontFamily: "Open Sans",
   },
   timelineContent: {
     padding: "0 16px",
@@ -32,12 +33,14 @@ const useStyles = makeStyles((theme) => ({
   },
   instituteNameStyle: {
     fontSize: "0.7rem",
+    fontFamily: "Open Sans",
     "@media (min-width: 600px)": {
       fontSize: "1rem",
     },
   },
   yearStyle: {
     fontSize: "0.6rem",
+    fontFamily: "Open Sans",
     "@media (min-width: 600px)": {
       fontSize: "1rem",
     },

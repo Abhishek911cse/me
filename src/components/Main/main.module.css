@@ -7,6 +7,6 @@
 .footerHR {
   margin: 40px auto;
   border: 0;
-  border-top: 10px dotted;
-  width: 60px;
+  border-top: 2px solid;
+  width: 70%;
 }

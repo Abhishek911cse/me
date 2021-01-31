@@ -12,11 +12,8 @@ const Main = () => {
     <div className={classes.main}>
       <Intro />
       <About />
-      <hr className={classes.footerHR}></hr>
       <Project />
-      <hr className={classes.footerHR}></hr>
       <Timeline />
-      <hr className={classes.footerHR}></hr>
       <Skills />
       <hr className={classes.footerHR}></hr>
       <Footer />

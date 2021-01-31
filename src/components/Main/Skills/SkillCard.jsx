@@ -18,6 +18,7 @@ const useStyles = makeStyles((theme) => ({
     color: "#bbe1fa",
     "& p": {
       color: "#bbe1fa",
+      fontFamily: "Open Sans",
     },
     "& i": {
       display: "block",
@@ -26,6 +27,7 @@ const useStyles = makeStyles((theme) => ({
     },
     "& h5": {
       margin: "10px auto",
+      fontFamily: "Montserrat",
     },
   },
 }));
