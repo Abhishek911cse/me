@@ -11,17 +11,6 @@ const sidebar = (props) => (
       >
         Abhishek Ramasubramanian
       </p>
-      {/* <p>
-              <EmailIcon />
-              <a href="mailto:0901abhishek.r@gmail.com">
-                0901abhishek.r@gmail.com
-              </a>
-            </p>
-            <p>
-              <PhoneIcon />
-              <a href="tel:+919321215019">+919321215019</a>
-            </p>
-            <NavList /> */}
       <a href="/">
         {" "}
         <LinkedInIcon />{" "}
