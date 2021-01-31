@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/me/static/css/main.6b740d1d.chunk.css",
+    "main.js": "/me/static/js/main.a0c2120e.chunk.js",
+    "main.js.map": "/me/static/js/main.a0c2120e.chunk.js.map",
+    "runtime-main.js": "/me/static/js/runtime-main.50f2f8e9.js",
+    "runtime-main.js.map": "/me/static/js/runtime-main.50f2f8e9.js.map",
+    "static/js/2.048d9d7f.chunk.js": "/me/static/js/2.048d9d7f.chunk.js",
+    "static/js/2.048d9d7f.chunk.js.map": "/me/static/js/2.048d9d7f.chunk.js.map",
+    "index.html": "/me/index.html",
+    "static/css/main.6b740d1d.chunk.css.map": "/me/static/css/main.6b740d1d.chunk.css.map",
+    "static/js/2.048d9d7f.chunk.js.LICENSE.txt": "/me/static/js/2.048d9d7f.chunk.js.LICENSE.txt",
+    "static/media/about.styles.module.css": "/me/static/media/about-img-edited.01d8fa67.jpg",
+    "static/media/intro.module.css": "/me/static/media/marten-bjork-aTt_rNa3gmM-unsplash.8fb4222e.jpg",
+    "static/media/osVisualizerProj.b0d31383.png": "/me/static/media/osVisualizerProj.b0d31383.png",
+    "static/media/pharmacyProjImg.0e68e853.jpg": "/me/static/media/pharmacyProjImg.0e68e853.jpg",
+    "static/media/profileImg.11371daa.jpg": "/me/static/media/profileImg.11371daa.jpg",
+    "static/media/todoAppProj.285736e7.png": "/me/static/media/todoAppProj.285736e7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50f2f8e9.js",
+    "static/js/2.048d9d7f.chunk.js",
+    "static/css/main.6b740d1d.chunk.css",
+    "static/js/main.a0c2120e.chunk.js"
+  ]
+}
