@@ -73,7 +73,8 @@
   color: #0f4c75;
 }
 
-@media screen and (min-height: 280px) and (max-height: 550px) {
+/* @media screen and (min-height: 280px) and (max-height: 550px) { */
+@media screen and (orientation: landscape) {
   .MobileMenu {
     flex-flow: row;
     padding: 5%;

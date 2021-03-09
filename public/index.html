@@ -4,7 +4,9 @@
 <head>
   <meta charset="utf-8" />
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Portfolio Website of Abhishek Ramasubramanian, 
     a Computer Science student currently studying in Vellore Institute of Technology, Vellore, 
@@ -12,11 +14,86 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
     integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
   <title>Abhishek's Personal Website</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .loader-container {
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #1b262c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .lds-ripple {
+      display: inline-block;
+      position: relative;
+      width: 100px;
+      height: 100px;
+    }
+
+    .lds-ripple div {
+      position: absolute;
+      border: 4px solid #bbe1fa;
+      opacity: 1;
+      border-radius: 50%;
+      animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    }
+
+    .lds-ripple div:nth-child(2) {
+      animation-delay: -0.5s;
+    }
+
+    @keyframes lds-ripple {
+      0% {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+      }
+
+      100% {
+        top: 0px;
+        left: 0px;
+        width: 72px;
+        height: 72px;
+        opacity: 0;
+      }
+    }
+  </style>
 </head>
 
+<noscript>You need to enable JavaScript to run this app.</noscript>
+
 <body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
+  <div id="root">
+    <div class="loader-container">
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('%PUBLIC_URL%/serviceWorker.js')
+        .then(function (registration) {
+          console.log('Registration successful, scope is:', registration.scope);
+        })
+        .catch(function (error) {
+          console.log('Service worker registration failed, error:', error);
+        });
+    }
+  </script>
 </body>
 
 </html>

@@ -3,7 +3,7 @@ import classes from "./about.styles.module.css";
 // import AboutImg from "../../../images/about-img-edited.jpg";
 
 function About(props) {
-  const aboutMeTitle = "Hi👋! I'm Abhishek Ramasubramanian";
+  const aboutMeTitle = "Hi! I'm Abhishek Ramasubramanian";
   const contentPara1 = `I'm a Computer Science student from Vellore Institute of Technology, Vellore.
   The amount of progress made in the field of computer science fascinates me and motivates me to 
   explore new things. I'm open to learning new stuff and going beyond them.`;
@@ -23,7 +23,7 @@ function About(props) {
       <h2>About</h2>
       <div className={classes.aboutImg}></div>
       <div className={classes.aboutContent}>
-        <h3>{aboutMeTitle}</h3>
+        <h3 style={{ textAlign: "start" }}>{aboutMeTitle}</h3>
         <p>{contentPara1}</p>
         <p>{contentPara2}</p>
         <p>{contentPara3}</p>

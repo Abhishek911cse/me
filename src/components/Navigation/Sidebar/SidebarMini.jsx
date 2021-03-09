@@ -80,6 +80,7 @@ const SidebarMini = (props) => {
             <AnchorLink
               offset={() => 20}
               href="#about"
+              tabIndex="-1"
               className={classes.expandedNavLinks}
             >
               About
@@ -88,6 +89,7 @@ const SidebarMini = (props) => {
             <AnchorLink
               offset={() => 20}
               href="#projects"
+              tabIndex="-1"
               className={classes.expandedNavLinks}
             >
               Projects
@@ -96,6 +98,7 @@ const SidebarMini = (props) => {
             <AnchorLink
               offset={() => 20}
               href="#timeline"
+              tabIndex="-1"
               className={classes.expandedNavLinks}
             >
               Timeline
@@ -104,6 +107,7 @@ const SidebarMini = (props) => {
             <AnchorLink
               offset={() => 20}
               href="#skills"
+              tabIndex="-1"
               className={classes.expandedNavLinks}
             >
               Skills

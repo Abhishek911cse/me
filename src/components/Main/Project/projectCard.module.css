@@ -23,7 +23,8 @@
   font-size: 1em;
 }
 
-.projectName h4 {
+.projectName h4,
+.projectName h6 {
   margin: 10px;
 }
 
@@ -55,6 +56,7 @@
   outline: none;
   border: 1px solid #1b262c;
   color: #1b262c;
+  transform: scale(0.9);
 }
 
 .projectContent {

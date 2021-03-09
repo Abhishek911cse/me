@@ -46,12 +46,13 @@ function ProjectCard(props) {
       </div>
       <div className={classes.projectName}>
         <h4>{props.projName}</h4>
+        <h6>{props.type}</h6>
       </div>
       <div className={classes.projectCardActions}>
         <a
           href={props.projLink && props.projLink}
           target="_blank"
-          rel="external"
+          rel="noopener noreferrer"
         >
           <button className={classes.srcCodeBtn}>Source Code</button>
         </a>
