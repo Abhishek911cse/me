@@ -78,6 +78,7 @@
   .MobileMenu {
     flex-flow: row;
     padding: 5%;
+    padding-top: 65px;
     align-items: center;
   }
   .MobileMenu > div:first-child {
