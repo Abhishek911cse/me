@@ -85,7 +85,7 @@
 
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('%PUBLIC_URL%/serviceWorker.js')
+      navigator.serviceWorker.register('/me/serviceWorker.js', { scope: '/me/' })
         .then(function (registration) {
           console.log('Registration successful, scope is:', registration.scope);
         })
